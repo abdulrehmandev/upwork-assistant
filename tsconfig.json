@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es5", // Set the target JavaScript version (adjust if needed)
+        "module": "commonjs", // Module system (adjust if preferred)
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ], // Libraries for browser compatibility
+        "allowJs": true, // Allow importing JavaScript files
+        "outDir": "dist", // Output directory for compiled JavaScript (adjust if needed)
+        "strict": true, // Enable strict mode for type safety
+        "esModuleInterop": true // Enable ES module interop for compatibility
+    },
+    "include": [
+        "src"
+    ] // Include files from the `src` directory for compilation
+}
